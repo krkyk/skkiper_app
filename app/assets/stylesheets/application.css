@@ -34,3 +34,17 @@
 #container{
   height:500px;
 }
+.theTarget{
+  position:relative;
+}
+.text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);;
+  font-size: 50px;
+  background-color: rgba(255,255,0,0.5);
+  color: #4b0082;
+}
